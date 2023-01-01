@@ -6,7 +6,7 @@ delay = int(input("Задержка: "))
 try:
     while True:
         try:
-            for x in glob.glob("C:\\Users\\koval\\Desktop\\Toxa\\Программы\\Imgur Parser\\*.*"):
+            for x in glob.glob("*.*"):
                 statinfo = os.stat(str(x))
                 if statinfo.st_size != 503:
                     pass
